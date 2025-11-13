@@ -190,16 +190,8 @@ const Index = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between pt-2 border-t border-border/50">
+                    <div className="flex items-center justify-center pt-2 border-t border-border/50">
                       <span className="text-2xl font-bold text-primary">${product.price}</span>
-                      <Button
-                        size="sm"
-                        className="bg-gradient-to-r from-primary via-secondary to-accent hover:opacity-90 transition-opacity"
-                        disabled={!product.inStock}
-                      >
-                        <Icon name="ShoppingCart" size={16} className="mr-2" />
-                        Купить
-                      </Button>
                     </div>
                   </div>
                 </div>
