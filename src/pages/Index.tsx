@@ -23,41 +23,41 @@ interface Product {
 }
 
 const mockProducts: Product[] = [
-  { id: 1, name: 'Кроссовки Air Max', category: 'Обувь', price: 129, image: '👟', rating: 4.8, inStock: true },
-  { id: 2, name: 'Ботинки Chelsea', category: 'Обувь', price: 189, image: '👢', rating: 4.6, inStock: true },
-  { id: 3, name: 'Туфли классические', category: 'Обувь', price: 149, image: '👞', rating: 4.7, inStock: true },
-  { id: 4, name: 'Сандалии летние', category: 'Обувь', price: 79, image: '👡', rating: 4.5, inStock: true },
+  { id: 1, name: 'Кроссовки Air Max', category: 'Обувь', price: 12900, image: '👟', rating: 4.8, inStock: true },
+  { id: 2, name: 'Ботинки Chelsea', category: 'Обувь', price: 18900, image: '👢', rating: 4.6, inStock: true },
+  { id: 3, name: 'Туфли классические', category: 'Обувь', price: 14900, image: '👞', rating: 4.7, inStock: true },
+  { id: 4, name: 'Сандалии летние', category: 'Обувь', price: 7900, image: '👡', rating: 4.5, inStock: true },
   
-  { id: 5, name: 'Рюкзак Urban', category: 'Сумки', price: 89, image: '🎒', rating: 4.5, inStock: true },
-  { id: 6, name: 'Кожаная сумка', category: 'Сумки', price: 199, image: '👜', rating: 4.8, inStock: true },
-  { id: 7, name: 'Дорожная сумка', category: 'Сумки', price: 149, image: '👝', rating: 4.6, inStock: false },
-  { id: 8, name: 'Клатч вечерний', category: 'Сумки', price: 69, image: '💼', rating: 4.4, inStock: true },
+  { id: 5, name: 'Рюкзак Urban', category: 'Сумки', price: 8900, image: '🎒', rating: 4.5, inStock: true },
+  { id: 6, name: 'Кожаная сумка', category: 'Сумки', price: 19900, image: '👜', rating: 4.8, inStock: true },
+  { id: 7, name: 'Дорожная сумка', category: 'Сумки', price: 14900, image: '👝', rating: 4.6, inStock: false },
+  { id: 8, name: 'Клатч вечерний', category: 'Сумки', price: 6900, image: '💼', rating: 4.4, inStock: true },
   
-  { id: 9, name: 'Кепка спортивная', category: 'Аксессуары на голову', price: 39, image: '🧢', rating: 4.3, inStock: true },
-  { id: 10, name: 'Шляпа федора', category: 'Аксессуары на голову', price: 79, image: '🎩', rating: 4.7, inStock: true },
-  { id: 11, name: 'Бейсболка vintage', category: 'Аксессуары на голову', price: 49, image: '🧢', rating: 4.5, inStock: true },
-  { id: 12, name: 'Повязка на голову', category: 'Аксессуары на голову', price: 29, image: '👑', rating: 4.2, inStock: true },
+  { id: 9, name: 'Кепка спортивная', category: 'Аксессуары на голову', price: 3900, image: '🧢', rating: 4.3, inStock: true },
+  { id: 10, name: 'Шляпа федора', category: 'Аксессуары на голову', price: 7900, image: '🎩', rating: 4.7, inStock: true },
+  { id: 11, name: 'Бейсболка vintage', category: 'Аксессуары на голову', price: 4900, image: '🧢', rating: 4.5, inStock: true },
+  { id: 12, name: 'Повязка на голову', category: 'Аксессуары на голову', price: 2900, image: '👑', rating: 4.2, inStock: true },
   
-  { id: 13, name: 'Серебряное ожерелье', category: 'Ожерелья/браслеты', price: 159, image: '📿', rating: 4.9, inStock: true },
-  { id: 14, name: 'Браслет из бисера', category: 'Ожерелья/браслеты', price: 45, image: '💍', rating: 4.4, inStock: true },
-  { id: 15, name: 'Золотая цепочка', category: 'Ожерелья/браслеты', price: 299, image: '📿', rating: 4.8, inStock: false },
-  { id: 16, name: 'Браслет кожаный', category: 'Ожерелья/браслеты', price: 59, image: '⌚', rating: 4.6, inStock: true },
+  { id: 13, name: 'Серебряное ожерелье', category: 'Ожерелья/браслеты', price: 15900, image: '📿', rating: 4.9, inStock: true },
+  { id: 14, name: 'Браслет из бисера', category: 'Ожерелья/браслеты', price: 4500, image: '💍', rating: 4.4, inStock: true },
+  { id: 15, name: 'Золотая цепочка', category: 'Ожерелья/браслеты', price: 29900, image: '📿', rating: 4.8, inStock: false },
+  { id: 16, name: 'Браслет кожаный', category: 'Ожерелья/браслеты', price: 5900, image: '⌚', rating: 4.6, inStock: true },
   
-  { id: 17, name: 'Хвост лисы', category: 'Хвосты/Крылья', price: 129, image: '🦊', rating: 4.7, inStock: true },
-  { id: 18, name: 'Крылья ангела', category: 'Хвосты/Крылья', price: 249, image: '👼', rating: 4.9, inStock: true },
-  { id: 19, name: 'Хвост дракона', category: 'Хвосты/Крылья', price: 179, image: '🐉', rating: 4.8, inStock: false },
-  { id: 20, name: 'Крылья феи', category: 'Хвосты/Крылья', price: 199, image: '🧚', rating: 4.6, inStock: true },
+  { id: 17, name: 'Хвост лисы', category: 'Хвосты/Крылья', price: 12900, image: '🦊', rating: 4.7, inStock: true },
+  { id: 18, name: 'Крылья ангела', category: 'Хвосты/Крылья', price: 24900, image: '👼', rating: 4.9, inStock: true },
+  { id: 19, name: 'Хвост дракона', category: 'Хвосты/Крылья', price: 17900, image: '🐉', rating: 4.8, inStock: false },
+  { id: 20, name: 'Крылья феи', category: 'Хвосты/Крылья', price: 19900, image: '🧚', rating: 4.6, inStock: true },
   
-  { id: 21, name: 'Подставка для книг', category: 'Подставки', price: 49, image: '📚', rating: 4.5, inStock: true },
-  { id: 22, name: 'Подставка для телефона', category: 'Подставки', price: 29, image: '📱', rating: 4.4, inStock: true },
-  { id: 23, name: 'Подставка для ноутбука', category: 'Подставки', price: 89, image: '💻', rating: 4.7, inStock: true },
-  { id: 24, name: 'Подставка декоративная', category: 'Подставки', price: 39, image: '🎨', rating: 4.3, inStock: true },
+  { id: 21, name: 'Подставка для книг', category: 'Подставки', price: 4900, image: '📚', rating: 4.5, inStock: true },
+  { id: 22, name: 'Подставка для телефона', category: 'Подставки', price: 2900, image: '📱', rating: 4.4, inStock: true },
+  { id: 23, name: 'Подставка для ноутбука', category: 'Подставки', price: 8900, image: '💻', rating: 4.7, inStock: true },
+  { id: 24, name: 'Подставка декоративная', category: 'Подставки', price: 3900, image: '🎨', rating: 4.3, inStock: true },
 ];
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [priceRange, setPriceRange] = useState([0, 1000]);
+  const [priceRange, setPriceRange] = useState([0, 50000]);
   const [sortBy, setSortBy] = useState('featured');
 
   const categories = ['All', 'Обувь', 'Сумки', 'Аксессуары на голову', 'Ожерелья/браслеты', 'Хвосты/Крылья', 'Подставки'];
@@ -129,12 +129,12 @@ const Index = () => {
 
                 <div>
                   <label className="text-sm font-medium mb-3 block">
-                    Цена: ${priceRange[0]} - ${priceRange[1]}
+                    Цена: {priceRange[0].toLocaleString('ru-RU')} ₽ - {priceRange[1].toLocaleString('ru-RU')} ₽
                   </label>
                   <Slider
                     min={0}
-                    max={1000}
-                    step={10}
+                    max={50000}
+                    step={1000}
                     value={priceRange}
                     onValueChange={setPriceRange}
                     className="mt-2"
@@ -147,7 +147,7 @@ const Index = () => {
                   onClick={() => {
                     setSearchQuery('');
                     setSelectedCategory('All');
-                    setPriceRange([0, 1000]);
+                    setPriceRange([0, 50000]);
                     setSortBy('featured');
                   }}
                 >
@@ -208,7 +208,7 @@ const Index = () => {
                     </div>
 
                     <div className="flex items-center justify-center pt-2 border-t border-border/50">
-                      <span className="text-2xl font-bold text-primary">${product.price}</span>
+                      <span className="text-2xl font-bold text-primary">{product.price.toLocaleString('ru-RU')} ₽</span>
                     </div>
                   </div>
                 </div>
