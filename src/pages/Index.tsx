@@ -81,7 +81,7 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8">
         <header className="mb-12 text-center">
           <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-fade-in">
-            Каталог будущего
+            Каталог моделей
           </h1>
           <p className="text-muted-foreground text-lg animate-fade-in" style={{ animationDelay: '0.1s' }}>
             Откройте для себя товары нового поколения
